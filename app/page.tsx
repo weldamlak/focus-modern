@@ -11,6 +11,10 @@ import Exams from './components/Exams'
 import FocusAboutAndContact from './components/FocusAboutAndContact'
 import Footer from './components/Footer' 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
 import {
   Book,
   FileText,
@@ -178,7 +182,10 @@ export default function Home() {
         onSignOut={handleSignOut}
         onOpenExams={() => setCurrentView('exams')}
         onGoHome={() => setCurrentView('home')}
+<<<<<<< HEAD
         isDarkMode={isDarkMode}
+=======
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
       />
     )
   }
@@ -189,7 +196,10 @@ export default function Home() {
         }`}
       style={{ backgroundImage: `url('${isDarkMode ? '/BG2.jpg' : '/BG.jpg'}')` }}
     >
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
       {/* Background Overlay */}
       <div className={`absolute inset-0 pointer-events-none transition-colors duration-300 ${isDarkMode ? 'bg-slate-950/75' : 'bg-slate-50/45'
         }`} />
@@ -487,7 +497,10 @@ export default function Home() {
           </nav>
         </div>
       )}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
       {/* ─── MAIN HERO SECTION ─── */}
       <main className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 min-h-[calc(100vh-4rem)] lg:min-h-[85vh] flex flex-col justify-center items-center text-center space-y-4 sm:space-y-6 py-6 sm:py-12">
 
@@ -547,6 +560,10 @@ export default function Home() {
         </div>
       </main>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
       {/* ─── ESSLCE EXAM SUBJECTS SECTION ─── */}
       <section className={`relative z-10 py-12 sm:py-16 backdrop-blur-md border-t transition-colors duration-300 ${isDarkMode ? 'bg-slate-950/80 border-slate-800/80' : 'bg-white/80 border-gray-100'
         }`}>
@@ -701,9 +718,22 @@ export default function Home() {
         )}
       </div>
 
+<<<<<<< HEAD
       <FocusAboutAndContact isDarkMode={isDarkMode} />
 
       {/* ─── FOOTER SECTION ─── */}
+=======
+
+
+
+
+
+
+      <FocusAboutAndContact isDarkMode={isDarkMode} />
+
+
+{/* ─── FOOTER SECTION ─── */}
+>>>>>>> 05b4a5e2156bc4b5936f8014f7afc0c5d0586506
       <Footer isDarkMode={isDarkMode} />
 
       {/* Auth Modal Trigger */}
